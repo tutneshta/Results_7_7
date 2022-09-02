@@ -8,7 +8,6 @@ namespace Results_7_7
         {
 
         }
-
     }
 
     class Person
@@ -59,8 +58,6 @@ namespace Results_7_7
             }
 
         }
-
-
 
         public Person()
         {
@@ -147,10 +144,7 @@ namespace Results_7_7
             this.clientAddress = clientAddress;
         }
 
-        public Client()
-        {
-
-        }
+        public Client() { }
 
         public override void DisplayText()
         {
@@ -195,7 +189,6 @@ namespace Results_7_7
 
             Console.WriteLine($"Имя: {name}  identifier: {id} ");
         }
-
     }
 
     abstract class Delivery
@@ -311,11 +304,9 @@ namespace Results_7_7
 
         public override void DisplayInfo()
         {
-
             Console.WriteLine("Выводит информация о доставке на дом");
 
             Console.WriteLine($"Адрес доставки: {Address} Дата доставки: {dateDelivery} Курьер: {courier.name}");
-
         }
     }
 
