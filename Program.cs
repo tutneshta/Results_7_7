@@ -8,7 +8,6 @@ namespace Results_7_7
         {
 
         }
-
     }
 
     class Person
@@ -59,8 +58,6 @@ namespace Results_7_7
             }
 
         }
-
-
 
         public Person()
         {
